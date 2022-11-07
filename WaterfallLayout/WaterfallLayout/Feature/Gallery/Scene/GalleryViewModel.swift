@@ -27,7 +27,7 @@ class GalleryViewModel {
             self?.leftStack.append(StackEntity(image: urlImage, height: height))
             leftHeight = height
         }
-        Thread.sleep(forTimeInterval: 1.1)
+        Thread.sleep(forTimeInterval: 1.2)
         var currentHeight: CGFloat = 0
         var currentImage: UIImage?
         var i = 1
@@ -44,7 +44,7 @@ class GalleryViewModel {
                     rightHeight = rightHeight + currentHeight
                 }
             }
-            Thread.sleep(forTimeInterval: 1.1)
+            Thread.sleep(forTimeInterval: 1.2)
             i = i + 1
         }
         completion()

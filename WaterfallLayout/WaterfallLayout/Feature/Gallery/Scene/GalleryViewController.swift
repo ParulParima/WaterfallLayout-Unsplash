@@ -12,12 +12,10 @@ class GalleryViewController: UIViewController {
     
     
     @IBOutlet weak var leftTableView: UITableView!
-    @IBOutlet weak var rightTableView: UITableView!
-    
+    @IBOutlet weak var rightTableView: UITableView!    
     @IBOutlet weak var indicator: UIActivityIndicatorView!
     
     var viewModel: GalleryViewModel!
-    weak var navigator: GalleryCoordinator?
     
     init(viewModel: GalleryViewModel) {
         self.viewModel = viewModel

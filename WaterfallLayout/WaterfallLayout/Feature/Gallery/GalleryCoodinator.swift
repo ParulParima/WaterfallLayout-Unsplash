@@ -23,7 +23,6 @@ final class GalleryCoordinator: BaseCoordinator {
     
     func start() {
         let viewController = sceneProvider.makeGalleryScene()
-        viewController.navigator = self
         navigationController.pushViewController(viewController, animated: false)
     }
 }
