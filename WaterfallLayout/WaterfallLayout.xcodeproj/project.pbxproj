@@ -56,6 +56,8 @@
 		0327B1E92918E678002CB36D /* WaterfallLayout */ = {
 			isa = PBXGroup;
 			children = (
+				0327B1FF2918E737002CB36D /* Application */,
+				0327B1FE2918E72C002CB36D /* Feature */,
 				0327B1EA2918E678002CB36D /* AppDelegate.swift */,
 				0327B1EC2918E678002CB36D /* SceneDelegate.swift */,
 				0327B1EE2918E678002CB36D /* ViewController.swift */,
@@ -65,6 +67,44 @@
 				0327B1F82918E679002CB36D /* Info.plist */,
 			);
 			path = WaterfallLayout;
+			sourceTree = "<group>";
+		};
+		0327B1FE2918E72C002CB36D /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				0327B2002918E749002CB36D /* Gallery */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		0327B1FF2918E737002CB36D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0327B2002918E749002CB36D /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				0327B2022918E760002CB36D /* Data */,
+				0327B2012918E756002CB36D /* Scene */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		0327B2012918E756002CB36D /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		0327B2022918E760002CB36D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
